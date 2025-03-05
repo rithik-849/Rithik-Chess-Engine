@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessical</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div id="text">
+            <h1>♔ Chess-Engine ♔</h1>
+            <p>The JavaScript powered Chess Engine🎯</p>
+        </div>
+
+        <div class="game-container">
+            <div id="captured-white" class="captured-pieces">White Captured Pieces</div>
+            <div id="board"></div>
+            <div id="captured-black" class="captured-pieces">Black Captured Pieces</div>
+        </div>
+
+        <button id="suggest-best-move">Suggest Best Move</button>
+        <div class="top-right-corner">
+            <a href="https://github.com/RiteshS1/Chessical" target="_blank">
+                <img src="pieces/github.png" alt="GitHub" id="github-icon">
+            </a>
+            <img src="pieces/day-mode.png" alt="Toggle Dark Mode" id="mode-toggle" class="mode-toggle">
+        </div>
+    </div>
+
+    <div id="evaluation-bar">
+        <div id="evaluation-score"></div>
+    </div>
+
+    <footer>
+        <div><h2>Made by <h2>Rithik Verma</h2></div>
+    </footer>
+
+    <script src="scripts/board.js"></script>
+    <script src="scripts/evaluation.js"></script>
+    <script src="scripts/bestmove.js"></script>
+</body>
+</html>
