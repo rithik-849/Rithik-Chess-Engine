@@ -1,6 +1,6 @@
-# Chessical: The JavaScript-powered Chess Engine
+# Chess Engine
 
-Welcome to **Chessical**, a unique chess engine built entirely using pure JavaScript! This project showcases a simplified yet powerful implementation of a chess engine using the Minimax algorithm with Alpha-Beta Pruning, allowing for intelligent gameplay and move suggestions.
+Welcome to **Chess Engine**, a unique chess engine built entirely using pure JavaScript! This project showcases a simplified yet powerful implementation of a chess engine using the Minimax algorithm with Alpha-Beta Pruning, allowing for intelligent gameplay and move suggestions.
 
 ## Key Features
 
@@ -11,11 +11,11 @@ Welcome to **Chessical**, a unique chess engine built entirely using pure JavaSc
 
 ## How It Works
 
-Chessical leverages the **Minimax algorithm** with **Alpha-Beta Pruning** for decision-making, ensuring the engine evaluates moves efficiently by pruning unnecessary branches. However, to maintain speed, the depth of move evaluation is kept minimal for now. This means moves suggested may be naive but demonstrate the core algorithm's function.
+Chess-Engine leverages the **Minimax algorithm** with **Alpha-Beta Pruning** for decision-making, ensuring the engine evaluates moves efficiently by pruning unnecessary branches. However, to maintain speed, the depth of move evaluation is kept minimal for now. This means moves suggested may be naive but demonstrate the core algorithm's function.
 
-## Why Chessical?
+## Why Chess Engine?
 
-Unlike standard online chess games, Chessical is designed to demonstrate the underlying mechanics of a chess engine, giving users insights into move evaluation and algorithmic strategies.
+Unlike standard online chess games, Chess-Engine is designed to demonstrate the underlying mechanics of a chess engine, giving users insights into move evaluation and algorithmic strategies.
 
 ## Planned Enhancements
 
@@ -35,10 +35,10 @@ Simply open the project in your browser and start playing! Click on the "Suggest
 
 ## Contributing
 
-Contributions are welcome! Feel free to fork the project, open issues, or submit pull requests to make Chessical even better.
+Contributions are welcome! Feel free to fork the project, open issues, or submit pull requests to make Chess Engine even better.
 
 
 
 ---
 
-Enjoy playing and exploring the inner workings of Chessical, your very own JavaScript-powered chess engine!
+Enjoy playing and exploring the inner workings of Chess Engine, your very own JavaScript-powered chess engine!
